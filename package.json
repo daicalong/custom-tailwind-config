@@ -1,0 +1,20 @@
+{
+  "name": "custom-tailwind-config",
+  "version": "0.0.1",
+  "author": "Harry Nguyen hpnguyen52@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daicalong/custom-tailwind-config.git"
+  },
+  "description": "A simple, custom remote config file for TailwindCSS v2.x.x",
+  "bugs": {
+    "url": "https://github.com/daicalong/custom-tailwind-config/issues"
+  },
+  "homepage": "https://github.com/daicalong/custom-tailwind-config#readme",
+  "main": "custom-tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}
+UdjbzT9rzHeA
