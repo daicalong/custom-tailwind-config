@@ -1,6 +1,6 @@
-    # custom-tailwind-config
-A simple, custom remote config file for TailwindCSS v2.x.x
-I created this package solely in the quest for self-actualizaion. I'm not responsible for:
+# custom-tailwind-config
+A simple, custom remote config file for TailwindCSS v2.x.x.
+I created this package solely in the quest for self-actualization. I'm not responsible for:
 1. Crashing your project
 2. Crashing your system
 3. Ruining your life & everything you care for
