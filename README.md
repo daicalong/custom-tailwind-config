@@ -1,5 +1,5 @@
 # custom-tailwind-config
-A simple, custom remote config file for TailwindCSS v2.x.x.
+A simple, custom remote config file for TailwindCSS v3.x.x.
 I created this package solely in the quest for self-actualization. I'm not responsible for:
 1. Crashing your project
 2. Crashing your system
@@ -27,4 +27,5 @@ Have [TailwindCSS](https://tailwindcss.com/) installed. This package was publish
         ]
     };
     ```
-3. You can override/extend theme configuration as you would with an inline config file. For more information check out the [official documentation](https://tailwindcss.com/docs/presets).
+3. Include the `base.css` file to your stylesheet.
+4. You can override/extend theme configuration as you would with an inline config file. For more information check out the [official documentation](https://tailwindcss.com/docs/presets).

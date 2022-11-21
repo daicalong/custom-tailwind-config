@@ -1,7 +1,7 @@
 module.exports = {
     fontSize: {
-        'xs': '0.8rem',
-        'sm': '1.2rem',
+        'xs': '0.9rem',
+        'sm': '1.3rem',
         'base': '1.6rem',
         'lg': '1.8rem',
         'xl': '2rem',
@@ -11,7 +11,7 @@ module.exports = {
         'normalize': '62.5%',
     },
     fontFamily: {
-        display: ['Rawline', 'Open Sans', 'sans-serif'],
+        display: ['Open Sans', 'sans-serif'],
         body: ['Open Sans', 'sans-serif'],
     },
 }

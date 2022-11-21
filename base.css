@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply text-normalize leading-normal;
+}
+
+body {
+    @apply font-body relative text-base m-0;
+}
