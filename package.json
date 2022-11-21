@@ -1,7 +1,7 @@
 {
   "name": "custom-tailwind-config",
-  "version": "1.0.4",
-  "author": "Harry Nguyen hpnguyen52@gmail.com",
+  "version": "1.0.5",
+  "author": "Harry Nguyen",
   "repository": {
     "type": "git",
     "url": "https://github.com/daicalong/custom-tailwind-config.git"
