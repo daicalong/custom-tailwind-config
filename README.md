@@ -7,7 +7,7 @@ I created this package solely in the quest for self-actualization. I'm not respo
 4. Other life problems that may or may not be caused by using this package
 
 ## Prerequisites
-Have [TailwindCSS](https://tailwindcss.com/) installed. This package was published for use with TailwindCSS v2.2.4.
+Have [TailwindCSS](https://tailwindcss.com/) installed. This package was published for use with TailwindCSS v3.2.4.
 
 ## Installation & Usage
 1. Install custom-tailwind-config via npm `npm i custom-tailwind-config`.
