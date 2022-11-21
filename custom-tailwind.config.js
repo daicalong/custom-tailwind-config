@@ -268,30 +268,20 @@ const boxShadow = {
 };
 
 /** Screen Sizes */
-const _screenSizes = {
-    mobileSm: '320px',
-    mobileLg: '600px',
-    tablet: '960px',
-    laptopSm: '1280px',
-    laptopLg: '1440px',
-    fhd: '1920px',
-    qhd: '2560px',
-    uhd: '3840px',
-};
 const screens = {
-    '2xs': _screenSizes.mobileSm,
-    'xs': _screenSizes.mobileLg,
-    'sm': _screenSizes.tablet,
-    'md': _screenSizes.laptopSm,
-    'lg': _screenSizes.laptopLg,
-    'xl': _screenSizes.fhd,
-    '2xl': _screenSizes.qhd,
-    'phone': _screenSizes.mobileLg,
-    'tablet': _screenSizes.tablet,
-    'laptop': _screenSizes.laptopLg,
-    'desktop': _screenSizes.hfd,
-    '2k': _screenSizes.qhd,
-    '4k': _screenSizes.uhd,
+    '2xs': '320px',
+    'xs': '600px',
+    'sm': '960px',
+    'md': '1280px',
+    'lg': '1440px',
+    'xl': '1920px',
+    '2xl': '2560px',
+    'phone': '600px',
+    'tablet': '960px',
+    'laptop': '1440px',
+    'desktop': '1920px',
+    '2k': '2560px',
+    '4k': '3840px',
     'portrait': {
         'raw': '(orientation: portrait)',
     },
