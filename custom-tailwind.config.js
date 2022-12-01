@@ -325,4 +325,7 @@ module.exports = {
         fontSize: typography.fontSize,
         letterSpacing: typography.letterSpacing,
     },
+    presets: [
+        require('./colors.preset')
+    ]
 };
