@@ -316,7 +316,6 @@ module.exports = {
             minHeight: spacing,
             fill: colors,
         },
-        colors: colors,
         screens: screens,
         spacing: spacing,
         borderRadius: border.borderRadius,
