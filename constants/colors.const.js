@@ -5,7 +5,7 @@ module.exports = {
     transparent: 'transparent',
 
     white: {
-        DEFAULT: '#fff',
+        DEFAULT: 'rgba(255,255,255,1)',
         'overlay-10': 'rgba(255,255,255,.1)',
         'overlay-20': 'rgba(255,255,255,.2)',
         'overlay-30': 'rgba(255,255,255,.3)',
@@ -18,7 +18,7 @@ module.exports = {
     },
 
     black: {
-        DEFAULT: '#000',
+        DEFAULT: 'rgba(0,0,0,1)',
         'overlay-10': 'rgba(0,0,0,.1)',
         'overlay-20': 'rgba(0,0,0,.2)',
         'overlay-30': 'rgba(0,0,0,.3)',

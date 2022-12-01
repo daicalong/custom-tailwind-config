@@ -74,34 +74,6 @@ const spacing = {
     ..._values,
 };
 
-/** Typography */
-const typography = {
-    fontSize: {
-        'xs': '0.9rem',
-        'sm': '1.3rem',
-        'base': '1.6rem',
-        'lg': '1.8rem',
-        'xl': '2rem',
-        '2xl': '2.4rem',
-        '3xl': '3.6rem',
-        '4xl': '4.8rem',
-        'normalize': '62.5%',
-    },
-    fontFamily: {
-        display: ['Open Sans', 'sans-serif'],
-        body: ['Open Sans', 'sans-serif'],
-    },
-    letterSpacing: {
-        tightest: '-.75px',
-        tighter: '-.5px',
-        tight: '-.25px',
-        normal: '0',
-        wide: '.25px',
-        wider: '.5px',
-        widest: '1px',
-    }
-};
-
 /** Shadows */
 const boxShadow = {
     sm: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
@@ -166,11 +138,9 @@ module.exports = {
         spacing: spacing,
         borderRadius: border.borderRadius,
         boxShadow: boxShadow,
-        fontFamily: typography.fontFamily,
-        fontSize: typography.fontSize,
-        letterSpacing: typography.letterSpacing,
     },
     presets: [
-        require('./colors.preset')
+        require('./presets/colors.preset'),
+        require('./presets/typography.preset'),
     ]
 };
