@@ -1,4 +1,5 @@
 
+/** Colors */
 module.exports = {
     current: 'currentColor',
 
