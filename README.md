@@ -27,5 +27,6 @@ Have [TailwindCSS](https://tailwindcss.com/) installed. This package was publish
         ]
     };
     ```
-3. Include the `base.css` file to your stylesheet.
-4. You can override/extend theme configuration as you would with an inline config file. For more information check out the [official documentation](https://tailwindcss.com/docs/presets).
+3. Alternatively, you can import individual presets like `colors`, `spacing`, etc.
+4. Include the `base.css` file to your stylesheet.
+5. You can override/extend theme configuration as you would with an inline config file. For more information check out the [official documentation](https://tailwindcss.com/docs/presets).
