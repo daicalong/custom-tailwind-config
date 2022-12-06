@@ -28,5 +28,21 @@ Have [TailwindCSS](https://tailwindcss.com/) installed. This package was publish
     };
     ```
 3. Alternatively, you can import individual presets like `colors`, `spacing`, etc.
+    ```
+        module.exports = {
+        theme: {
+        extend: {},
+        },
+        variants: {
+        extend: {},
+        },
+        plugins: [
+        ],
+        presets: [
+        require('custom-tailwind-config/colors.preset'),
+        require('custom-tailwind-config/spacing.preset'),
+        ]
+    };
+    ```
 4. Include the `base.css` file to your stylesheet.
 5. You can override/extend theme configuration as you would with an inline config file. For more information check out the [official documentation](https://tailwindcss.com/docs/presets).
